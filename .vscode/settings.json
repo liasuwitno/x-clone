@@ -1,0 +1,17 @@
+{
+  // --- Format otomatis saat save ---
+  "editor.formatOnSave": true,
+  // --- Auto organize imports saat save ---
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  // --- Gunakan gofumpt (lebih ketat dari gofmt) ---
+  "go.formatTool": "gofumpt",
+  // --- Integrasi golangci-lint ---
+  "go.lintTool": "golangci-lint",
+  "go.lintOnSave": "file",
+  "go.lintFlags": [
+    "run",
+    "--fast"
+  ]
+}
